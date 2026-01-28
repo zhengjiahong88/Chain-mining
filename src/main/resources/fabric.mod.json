@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "chain_mining",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Chain mining mod",
+	"description": "This is a chain mining description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/zhengjiahong88/Fabric-Example.git"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/chain_mining/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.chain_mining.ChainMiningMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.chain_mining.ChainMiningModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"chain_mining.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "chain_mining.client.mixins.json",
 			"environment": "client"
 		}
 	],

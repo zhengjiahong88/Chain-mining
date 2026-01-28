@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"modid" {
+		"chain_mining" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
