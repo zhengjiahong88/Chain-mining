@@ -2,24 +2,24 @@
 	"schemaVersion": 1,
 	"id": "chain_mining",
 	"version": "${version}",
-	"name": "Chain mining mod",
-	"description": "This is a chain mining description! Tell everyone what your mod is about!",
+	"name": "Chain mining",
+	"description": "Press R to chain mining.",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/zhengjiahong88/Fabric-Example.git"
+		"sources": "https://github.com/zhengjiahong88/Chain-mining"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/chain_mining/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.chain_mining.ChainMiningMod"
+			"com.chain_mining.Mod"
 		],
 		"client": [
-			"com.chain_mining.ChainMiningModClient"
+			"com.chain_mining.ModClient"
 		]
 	},
 	"mixins": [

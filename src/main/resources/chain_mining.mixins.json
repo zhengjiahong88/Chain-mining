@@ -1,14 +1,14 @@
 {
-	"required": true,
-	"package": "com.chain_mining.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-      "ChainMiningMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
+    "required": true,
+    "package": "com.chain_mining.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "ServerPlayerStateMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
 	}
 }

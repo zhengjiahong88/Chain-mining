@@ -2,9 +2,6 @@
 	"required": true,
 	"package": "com.chain_mining.mixin.client",
 	"compatibilityLevel": "JAVA_21",
-	"client": [
-		"ChainMiningClientMixin"
-	],
 	"injectors": {
 		"defaultRequire": 1
 	}
