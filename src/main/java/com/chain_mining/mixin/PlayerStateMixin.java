@@ -1,6 +1,6 @@
 package com.chain_mining.mixin;
 
-import com.chain_mining.api.ServerPlayerState;
+import com.chain_mining.api.PlayerState;
 
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.math.BlockPos;
@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.Unique;
 import java.util.HashSet;
 
 @Mixin(ServerPlayerEntity.class)
-public class ServerPlayerStateMixin implements ServerPlayerState {
+public class PlayerStateMixin implements PlayerState {
     @Unique
     private HashSet<BlockPos> posSet = new HashSet<>();
 

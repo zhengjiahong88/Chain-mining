@@ -5,7 +5,7 @@ import net.minecraft.util.math.BlockPos;
 
 import java.util.HashSet;
 
-public interface ServerPlayerState {
+public interface PlayerState {
     ServerPlayerEntity chainMining$getEntity();
     HashSet<BlockPos> chainMining$getPosSet();
     HashSet<BlockPos> chainMining$drainPosSet();
